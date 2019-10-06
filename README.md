@@ -1,7 +1,11 @@
-Cron expression parsing in ANSI C
+ESP-IDF Component - Cron expression parsing in ANSI C
 =================================
 
 Portage to ESP-IDF component
+
+In order to use the ccronexpr - clone this repo under `component` folder of your project.
+
+Comment out `COMPONENT_ADD_LDFLAGS` line in `component.mk` in order to work without timezones support.
 
 [![travis](https://travis-ci.org/staticlibs/ccronexpr.svg?branch=master)](https://travis-ci.org/staticlibs/ccronexpr)
 [![appveyor](https://ci.appveyor.com/api/projects/status/github/staticlibs/ccronexpr?svg=true)](https://ci.appveyor.com/project/staticlibs/ccronexpr)
