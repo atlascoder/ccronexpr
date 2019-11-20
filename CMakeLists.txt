@@ -1,0 +1,6 @@
+set(COMPONENT_ADD_INCLUDEDIRS "include")
+set(COMPONENT_SRCDIRS "src")
+
+set(COMPONENT_ADD_LDFLAGS DCRON_USE_LOCAL_TIME)
+
+register_component()
